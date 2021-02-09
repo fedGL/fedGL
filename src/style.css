@@ -59,6 +59,14 @@ nav li:hover {
   box-shadow: 0px 0px 10px 3px #ccc;
 }
 
+/* Media queries */
+
+@media screen and (max-width: 768px){
+  nav {
+    text-align: center;
+  }
+}
+
 /* Fonts */
 
 @font-face {
