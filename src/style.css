@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.Noto {
+  font-family: "Noto Sans Regular";
+}
+
+
+/* Fonts */
+
+@font-face {
+  font-display: block;
+  font-family: "Noto Sans Regular";
+  src: url("fonts/NotoSansJP-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Noto Sans Bold";
+  src: url("fonts/NotoSansJP-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Roboto Mono Regular";
+  src: url("fonts/RobotoMono-Regular.ttf") format("truetype");
+}
