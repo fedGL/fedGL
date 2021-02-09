@@ -6,6 +6,35 @@ body {
   outline: 0;
 }
 
+body {
+  font-family: "Noto Sans Regular";
+  background-color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Nav */
+
+nav {
+  /*  */
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0.7rem;
+}
+
+nav li:hover {
+  background-color:#e7f59e;
+  border-radius: 5px;
+}
+
 .Noto {
   font-family: "Noto Sans Regular";
 }
