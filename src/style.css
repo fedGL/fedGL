@@ -1,3 +1,5 @@
+/* General */
+
 html,
 body {
   margin: 0;
@@ -16,19 +18,23 @@ h1 {
   font-family: "Noto Sans Bold";
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Noto Sans Regular";
   background-color: white;
 }
 
-li {
-  list-style-type: none;
+main {
+  margin: 2vh 2vw;
 }
 
 /* Nav */
 
-nav {
-  /*  */
+li {
+  list-style-type: none;
 }
 
 nav ul {
@@ -47,19 +53,13 @@ nav li:hover, nav li:active {
   border-radius: 5px;
 }
 
-/* Flex */
+/* Header with profile pic */
 
-.flex {
+.header-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-/* Main */
-
-main {
-  margin: 2vh 2vw;
 }
 
 .profile-image img{
@@ -69,8 +69,81 @@ main {
 }
 
 .profile-text {
+  text-align: center;
   margin: 15px;
 }
+
+/* Body with projects */
+
+.project-flex {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.project-container {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Roboto Mono Regular";
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.smaller {
+  margin: 5px;
+  text-justify: justify;
+  font-family: "Noto Sans Regular";
+  font-size: 0.8em;
+}
+
+.break {
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+/* Colors */
+
+#magic-mint {
+  background-color: #99edcc;
+}
+
+#gradient2 {
+  background-color: #88efd5;
+}
+
+#gradient3 {
+  background-color: #74f1e0;
+}
+
+#gradient4 {
+  background-color: #5bf3ed;
+}
+
+#gradient5 {
+  background-color: #25d9ff;
+}
+
+#gradient6 {
+  background-color: #a2b2ff;
+}
+
+#gradient7 {
+  background-color: #ea82d3;
+}
+
+#gradient8 {
+  background-color: #f56476;
+}
+
+
 
 /* Media queries */
 
@@ -81,6 +154,13 @@ main {
 
   h1 {
     font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+  .smaller {
+    display: none;
   }
 }
 
